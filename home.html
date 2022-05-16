@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- viewport responsive -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- site title -->
+		<title>Tralive</title>
+		<!-- font awesome icons -->
+		<script
+			src="https://kit.fontawesome.com/7ae88a4f6e.js"
+			crossorigin="anonymous"
+		></script>
+		<!-- linking stylesheet -->
+		<link rel="stylesheet" href="/assets/stylesheets/style.css" />
+		<!-- linking scripts -->
+		<script src="/assets/scripts/script.js"></script>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+			integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+			integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+			integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+			integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+	</head>
+	<body>
+		<div class="maincontainer">
+			<!-- header -->
+			<header class="sticky">
+				<!-- navbar -->
+				<nav class="navbar">
+					<!-- logo -->
+					<div class="logodiv">
+						<img src="/assets/images/logo1.png" alt="logo" class="logo" />
+					</div>
+					<!-- navbar links -->
+					<ul class="navlinks">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Events</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Blog</a></li>
+						<li>
+							<button class="contactbtn">
+								<i class="fa-solid fa-phone"></i> +10 (67) 678 2567
+							</button>
+						</li>
+					</ul>
+				</nav>
+				<nav class="responsivenav">
+					<div class="menu">
+						<span onclick="menufunction()"
+							>MENU <i class="fa-solid fa-bars"></i
+						></span>
+					</div>
+				</nav>
+				<section class="navmenu2" id="menu2">
+					<ul class="navlinks2">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Events</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Blog</a></li>
+						<li>
+							<button class="contactbtn">
+								<i class="fa-solid fa-phone"></i> +10 (67) 678 2567
+							</button>
+						</li>
+					</ul>
+				</section>
+			</header>
+			<!-- title and explore btn -->
+			<section class="containertitle">
+				<div class="heading">
+					Lifelong memories just a <br />
+					few seconds away
+					<hr />
+				</div>
+				<div class="headline">
+					Let's start your journey with us, your dream will come true
+				</div>
+				<button class="expdesbtn">Explore Destinations</button>
+			</section>
+			<!-- moving bus and bg -->
+			<section class="containervehicle">
+				<img src="/assets/images/car.png" alt="bus" class="vehicle" />
+			</section>
+			<!-- event cards -->
+
+			<section class="containerevents">
+				<div class="eventline">Check Our Best Promotional Tour</div>
+				<div class="heading2">Upcoming Events</div>
+				<div class="cardcontainer">
+					<div class="owl-carousel owl-theme">
+						<div class="card">
+							<img
+								src="/assets/images/service3.png"
+								alt="service1"
+								width="100%"
+							/>
+							<div class="cardcontent">
+								<div class="location">Spitzberg</div>
+								<div class="price">$1200</div>
+							</div>
+							<div class="cardcontent2">
+								<div class="time">12 Jan - 18 Jan</div>
+								<div class="days">5 Days</div>
+							</div>
+						</div>
+						<div class="card">
+							<img
+								src="/assets/images/service2.png"
+								alt="service1"
+								width="100%"
+							/>
+							<div class="cardcontent">
+								<div class="location">Mega Turkey</div>
+								<div class="price">$1200</div>
+							</div>
+							<div class="cardcontent2">
+								<div class="time">12 Jan - 18 Jan</div>
+								<div class="days">5 Days</div>
+							</div>
+						</div>
+						<div class="card">
+							<img
+								src="/assets/images/service1.png"
+								alt="service1"
+								width="100%"
+							/>
+							<div class="cardcontent">
+								<div class="location">Mega Turkey</div>
+								<div class="price">$1200</div>
+							</div>
+							<div class="cardcontent2">
+								<div class="time">12 Jan - 18 Jan</div>
+								<div class="days">5 Days</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- aboutus section -->
+			<section class="aboutuscontainer">
+				<img src="/assets/images/about.png" alt="aboutus" class="aboutusimg" />
+				<div class="aboutusdiv">
+					<div class="aboutusheading">About Us</div>
+					<div class="aboutusheadline">Get ready for real time adventure</div>
+					<div class="aboutusdes">
+						Let's start your journey with us, your dream will come true. Lorem
+						ipsum sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+						quis nostrud exercitation.
+					</div>
+					<button class="aboutusbtn">Book Your Destination</button>
+				</div>
+			</section>
+			<!-- Customers feedback section -->
+			<section class="feedback">
+				<div class="headingfeedback">What customers say</div>
+				<div class="feedbackdes">
+					<span class="feeddes">
+						"Let's start your journey with us, your dream will come true. Lorem
+						ipsum sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+						quis nostrud exercitation.
+					</span>
+				</div>
+				<div class="feedbackcard">
+					<img
+						src="/assets/images/founder.png"
+						alt="founder pic"
+						class="feedbackimg"
+					/>
+					<div class="feedbackinfo">
+						<span class="feedbackname">Mark Anthony</span>
+						<span class="feedbacktitle">Ceo of Colorlib</span>
+					</div>
+				</div>
+			</section>
+			<!-- video section -->
+			<section class="video">
+				<div class="mainvideo">
+					<img src="/assets/images/video-bg.png" alt="video" class="videoimg" />
+				</div>
+
+				<div class="gallery">
+					<div class="owl-carousel owl-theme">
+						<img
+							src="/assets/images/insta1.png"
+							alt="galleryimg"
+							class="gallery-img"
+						/>
+						<img
+							src="/assets/images/insta2.png"
+							alt="galleryimg"
+							class="gallery-img"
+						/>
+						<img
+							src="/assets/images/insta3.png"
+							alt="galleryimg"
+							class="gallery-img"
+						/>
+						<img
+							src="/assets/images/insta4.png"
+							alt="galleryimg"
+							class="gallery-img"
+						/>
+						<img
+							src="/assets/images/insta5.png"
+							alt="galleryimg"
+							class="gallery-img"
+						/>
+					</div>
+				</div>
+			</section>
+			<!-- footer section -->
+			<footer class="footerbg">
+				<div class="footcontain">
+					<div class="row">
+						<span><img src="/assets/images/logo-white.png" alt="logo" /></span>
+						<span class="footdes">
+							<span class="footdes2">
+								Land behold it created good saw after she'd Our set living.
+								Signs midst dominion creepeth morning laboris nisi ufsit
+								aliquip.
+							</span>
+						</span>
+						<span
+							><i class="fa-brands fa-twitter-square"></i>
+							<i class="fa-brands fa-facebook-square"></i>
+							<i class="fa-brands fa-linkedin"></i>
+							<i class="fa-brands fa-pinterest-square"></i
+						></span>
+					</div>
+					<div class="row">
+						<span class="foothead">Navigation</span>
+						<a href="#">Home</a>
+						<a href="#">About</a>
+						<a href="#">Services</a>
+						<a href="#">Blog</a>
+						<a href="#">Contact</a>
+					</div>
+					<div class="row">
+						<span class="foothead">Services</span>
+						<a href="#">Blackforest</a>
+						<a href="#">Bodhubon</a>
+						<a href="#">Rongdhonu</a>
+						<a href="#">Meghrong</a>
+					</div>
+					<div class="row">
+						<span class="foothead">Contact Us</span>
+						<address>
+							Plot B 15, Sector B Phase 5 D.H.A, Lahore <br />
+							demonmail89@gmail.com
+						</address>
+						<div class="phone">+10 (78) 738-9083</div>
+					</div>
+				</div>
+				<div class="footerfoot">
+					<span class="foot2">
+						Copyright @2021 All rights reserved | This template is made with
+						&#128153; by
+						<span class="copyright">Idrees</span>
+					</span>
+				</div>
+			</footer>
+		</div>
+		<script>
+			$(".owl-carousel").owlCarousel({
+				loop: true,
+				margin: 20,
+
+				autoWidth: true,
+				nav: false,
+				dots: false,
+				autoplay: true,
+			});
+		</script>
+	</body>
+</html>
